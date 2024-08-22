@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body
+{
+	font-family:Arial;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 100vh;
+	margin:0;
+	border:2px solid black;
+	border-radius: 10px;
+}
+.otp-container
+{
+	text-align:center;
+}
+#verification_heading
+{
+	font-size:24px;
+	margin-bottom: 10px;
+}
+#verification_subtext
+{
+	text-align:center;
+	color:#666;
+	margin-block: 20px;
+}
+.code-container
+{
+	display:flex;
+	justify-content:space-between;
+	width:200px;
+	margin: 0 auto;
+}
+.code
+{
+	width: 30px;
+	height:40px;
+	font-size:24px;
+	text-align:center;
+	border: 1px  solid #ccc;
+	border-radius: 5px;
+	margin:0 5px;
+}
+
+
+
+
