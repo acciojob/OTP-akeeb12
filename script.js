@@ -1,7 +1,7 @@
 //your JS code here. If required.
-document.addEventListener("DOMContenetLoaded",() =>{
+document.addEventListener("DOMContnetLoaded",() =>{
 
-const codes = document.querySelectorAll(".code");
+let codes = document.querySelectorAll(".code");
 
 codes[0].focus();
 
@@ -22,7 +22,6 @@ codes.forEach((code, idx) =>
 				}
 			});
 		});
-	
 	});
 
 
