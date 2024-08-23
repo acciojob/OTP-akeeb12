@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const code = document.querySelectorAll('.code');
+const codes = document.querySelectorAll('.code');
 
 codes[0].focus();
 
